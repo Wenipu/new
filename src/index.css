@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 transition;
+  }
+  .btn {
+    @apply px-3 py-1 rounded-full text-sm font-medium text-white transition;
+  }
+  .btn.orange {
+    @apply bg-orange-500 hover:bg-orange-600;
+  }
+  .btn.blue {
+    @apply bg-blue-500 hover:bg-blue-600;
+  }
+  .btn.green {
+    @apply bg-green-500 hover:bg-green-600;
+  }
+  .btn.red {
+    @apply bg-red-500 hover:bg-red-600;
+  }
+  .btn.yellow {
+    @apply bg-yellow-500 hover:bg-yellow-600;
+  }
+  
+  .btn {
+    @apply px-4 py-1 rounded-full text-sm font-semibold transition;
+  }
+  
+  .btn.orange {
+    @apply bg-orange-500 hover:bg-orange-600 text-white;
+  }
+  
+  .btn.red {
+    @apply bg-red-500 hover:bg-red-600 text-white;
+  }
+  
+  .btn.green {
+    @apply bg-green-500 hover:bg-green-600 text-white;
+  }
+  
+  .btn.blue {
+    @apply bg-blue-500 hover:bg-blue-600 text-white;
+  }
+  
+  .btn.yellow {
+    @apply bg-yellow-400 hover:bg-yellow-500 text-white;
+  }
